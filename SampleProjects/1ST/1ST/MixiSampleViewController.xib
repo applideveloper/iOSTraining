@@ -21,7 +21,7 @@
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
                         <view contentMode="scaleToFill" id="9" userLabel="View - yellow">
-                            <rect key="frame" x="61" y="53.000001588343743" width="119" height="124"/>
+                            <rect key="frame" x="61" y="53" width="119" height="124.00000068737614"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                             <color key="backgroundColor" red="0.85548114870000003" green="0.96862745100000003" blue="0.47062272529999999" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
