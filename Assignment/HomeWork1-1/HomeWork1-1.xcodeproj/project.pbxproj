@@ -19,6 +19,8 @@
 		6DD52F1F19C81BD700DCA97F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD52F0719C81BD600DCA97F /* UIKit.framework */; };
 		6DD52F2719C81BD700DCA97F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DD52F2519C81BD700DCA97F /* InfoPlist.strings */; };
 		6DD52F2919C81BD700DCA97F /* HomeWork1_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD52F2819C81BD700DCA97F /* HomeWork1_1Tests.m */; };
+		6DD52F3519C81CF100DCA97F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD52F3319C81CF100DCA97F /* ViewController.m */; };
+		6DD52F3619C81CF100DCA97F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DD52F3419C81CF100DCA97F /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		6DD52F2419C81BD700DCA97F /* HomeWork1-1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeWork1-1Tests-Info.plist"; sourceTree = "<group>"; };
 		6DD52F2619C81BD700DCA97F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6DD52F2819C81BD700DCA97F /* HomeWork1_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeWork1_1Tests.m; sourceTree = "<group>"; };
+		6DD52F3219C81CF100DCA97F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6DD52F3319C81CF100DCA97F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DD52F3419C81CF100DCA97F /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				6DD52F1219C81BD600DCA97F /* AppDelegate.h */,
 				6DD52F1319C81BD600DCA97F /* AppDelegate.m */,
+				6DD52F3219C81CF100DCA97F /* ViewController.h */,
+				6DD52F3319C81CF100DCA97F /* ViewController.m */,
+				6DD52F3419C81CF100DCA97F /* ViewController.xib */,
 				6DD52F1519C81BD600DCA97F /* Images.xcassets */,
 				6DD52F0A19C81BD600DCA97F /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DD52F0E19C81BD600DCA97F /* InfoPlist.strings in Resources */,
+				6DD52F3619C81CF100DCA97F /* ViewController.xib in Resources */,
 				6DD52F1619C81BD600DCA97F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD52F3519C81CF100DCA97F /* ViewController.m in Sources */,
 				6DD52F1419C81BD600DCA97F /* AppDelegate.m in Sources */,
 				6DD52F1019C81BD600DCA97F /* main.m in Sources */,
 			);
