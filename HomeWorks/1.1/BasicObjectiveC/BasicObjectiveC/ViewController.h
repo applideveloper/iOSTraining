@@ -10,4 +10,8 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)pressAddButton:(id)sender;
+- (IBAction)pressRemoveButton:(id)sender;
+
+
 @end

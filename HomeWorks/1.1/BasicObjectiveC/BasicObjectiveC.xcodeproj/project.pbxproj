@@ -18,6 +18,10 @@
 		5405EF19171D454500C6E9F5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5405EF18171D454500C6E9F5 /* Default-568h@2x.png */; };
 		5405EF1C171D454500C6E9F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5405EF1B171D454500C6E9F5 /* ViewController.m */; };
 		5405EF1F171D454500C6E9F5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5405EF1D171D454500C6E9F5 /* ViewController.xib */; };
+		6D272DFE19C7FD4300C85E5D /* MixiSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D272DFC19C7FD4300C85E5D /* MixiSampleViewController.m */; };
+		6D272DFF19C7FD4300C85E5D /* MixiSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D272DFD19C7FD4300C85E5D /* MixiSampleViewController.xib */; };
+		6DD79DBB19C7F1FA003AAF33 /* MixiSampleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD79DBA19C7F1FA003AAF33 /* MixiSampleClass.m */; };
+		6DD79DBE19C7F3D6003AAF33 /* NSString+HogeAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD79DBD19C7F3D6003AAF33 /* NSString+HogeAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,13 @@
 		5405EF1A171D454500C6E9F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5405EF1B171D454500C6E9F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5405EF1E171D454500C6E9F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6D272DFB19C7FD4300C85E5D /* MixiSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixiSampleViewController.h; sourceTree = "<group>"; };
+		6D272DFC19C7FD4300C85E5D /* MixiSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixiSampleViewController.m; sourceTree = "<group>"; };
+		6D272DFD19C7FD4300C85E5D /* MixiSampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixiSampleViewController.xib; sourceTree = "<group>"; };
+		6DD79DB919C7F1FA003AAF33 /* MixiSampleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixiSampleClass.h; sourceTree = "<group>"; };
+		6DD79DBA19C7F1FA003AAF33 /* MixiSampleClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixiSampleClass.m; sourceTree = "<group>"; };
+		6DD79DBC19C7F3D6003AAF33 /* NSString+HogeAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HogeAddition.h"; sourceTree = "<group>"; };
+		6DD79DBD19C7F3D6003AAF33 /* NSString+HogeAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HogeAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +99,13 @@
 				5405EF1A171D454500C6E9F5 /* ViewController.h */,
 				5405EF1B171D454500C6E9F5 /* ViewController.m */,
 				5405EF1D171D454500C6E9F5 /* ViewController.xib */,
+				6DD79DB919C7F1FA003AAF33 /* MixiSampleClass.h */,
+				6DD79DBA19C7F1FA003AAF33 /* MixiSampleClass.m */,
+				6DD79DBC19C7F3D6003AAF33 /* NSString+HogeAddition.h */,
+				6DD79DBD19C7F3D6003AAF33 /* NSString+HogeAddition.m */,
+				6D272DFB19C7FD4300C85E5D /* MixiSampleViewController.h */,
+				6D272DFC19C7FD4300C85E5D /* MixiSampleViewController.m */,
+				6D272DFD19C7FD4300C85E5D /* MixiSampleViewController.xib */,
 				5405EF09171D454500C6E9F5 /* Supporting Files */,
 			);
 			path = BasicObjectiveC;
@@ -159,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5405EF0D171D454500C6E9F5 /* InfoPlist.strings in Resources */,
+				6D272DFF19C7FD4300C85E5D /* MixiSampleViewController.xib in Resources */,
 				5405EF15171D454500C6E9F5 /* Default.png in Resources */,
 				5405EF17171D454500C6E9F5 /* Default@2x.png in Resources */,
 				5405EF19171D454500C6E9F5 /* Default-568h@2x.png in Resources */,
@@ -174,8 +193,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5405EF0F171D454500C6E9F5 /* main.m in Sources */,
+				6DD79DBE19C7F3D6003AAF33 /* NSString+HogeAddition.m in Sources */,
 				5405EF13171D454500C6E9F5 /* AppDelegate.m in Sources */,
 				5405EF1C171D454500C6E9F5 /* ViewController.m in Sources */,
+				6DD79DBB19C7F1FA003AAF33 /* MixiSampleClass.m in Sources */,
+				6D272DFE19C7FD4300C85E5D /* MixiSampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +320,7 @@
 				5405EF24171D454500C6E9F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
